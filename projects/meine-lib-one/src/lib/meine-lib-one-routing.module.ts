@@ -5,7 +5,6 @@ import { HomeModule } from "./home/home.module";
 const routes: Routes = [
     {
         path: '',
-        pathMatch: 'full',
         loadChildren: function() {
             return HomeModule;
         },
